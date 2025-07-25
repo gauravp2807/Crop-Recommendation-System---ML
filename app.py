@@ -3,6 +3,9 @@ import pandas as pd
 import streamlit as st
 import pickle
 
+with open("encoder.pkl", "rb") as f:
+    encoder = pickle.load(f)
+
 
 st.set_page_config(page_title='None', page_icon='🌱', layout="centered", initial_sidebar_state="auto", menu_items={'About':"This is me - https://www.linkedin.com/in/gaurav-prajapati-170933211/"})
 
