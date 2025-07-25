@@ -41,12 +41,9 @@ def crop_recommend():
     import pandas as pd
     import streamlit as st
     import pickle
-    import os
 
-    base_path = os.path.dirname(__file__)
-    encoder = pickle.load(open(os.path.join(base_path, 'encoder.pkl'), 'rb'))
-    rfc = pickle.load(open(os.path.join(base_path, 'rfc.pkl'), 'rb'))
-
+    encoder=pickle.load(open('encoder.pkl','rb'))
+    rfc=pickle.load(open('rfc.pkl','rb'))
 
     st.write('''
     ## Most Suitable Crop for your farm 🌾
