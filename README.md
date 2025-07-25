@@ -17,8 +17,8 @@ This project uses a Random Forest Classifier to recommend the most suitable crop
 4. Display the result with additional crop information
 
 ## Model Info
-Algorithm: Random Forest Classifier
-Accuracy: ~99%
-Dataset: Crop Recommendation Dataset
-Features Used: NPK , temperature, humidity, ph, rainfall
-Output: One of 22+ major Indian crops including Bajra, Cotton, Barley, etc.
+-Algorithm: Random Forest Classifier
+-Accuracy: ~99%
+-Dataset: Crop Recommendation Dataset
+-Features Used: NPK , temperature, humidity, ph, rainfall
+-Output: One of 22+ major Indian crops including Bajra, Cotton, Barley, etc.
